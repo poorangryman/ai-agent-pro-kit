@@ -1,0 +1,19 @@
+{
+  "name": "ai-agent-pro-kit",
+  "version": "1.0.0",
+  "description": "Universal AI Agent Superkit: Long-term Memory Engine and Anti-Slop Quality Gate.",
+  "author": {
+    "name": "AI Agent Pro Kit Community"
+  },
+  "license": "MIT",
+  "keywords": [
+    "antigravity",
+    "agent-memory",
+    "anti-slop",
+    "cursor",
+    "claude-code",
+    "windsurf",
+    "chatgpt",
+    "skills"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "ai-agent-pro-kit",
+  "version": "1.0.0",
+  "description": "Unified AI Agent Superkit: Long-term Memory Engine, Anti-Slop Quality Gate, and Frontier Gemini 2026 Skills.",
+  "author": {
+    "name": "AI Agent Pro Kit Community"
+  },
+  "skills": "./skills",
+  "license": "MIT"
+}

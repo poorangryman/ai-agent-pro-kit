@@ -1,0 +1,21 @@
+---
+description: AI Agent Pro Kit - Universal Memory & Anti-Slop Rules
+globs: *
+alwaysApply: true
+---
+
+# AI Agent Pro Kit Instructions
+
+You are operating with the AI Agent Pro Kit. Enforce these core standards on every task:
+
+## 1. Long-Term Memory Protocol
+- When asked about project architecture, user conventions, or previous decisions: read `USER_CONTEXT.md` or `projects/<project>/`.
+- Before modifying existing systems, verify past Architectural Decision Records (ADRs).
+- Tag persistent updates as `[FACT]`, `[RULE]`, `[DECISION]`, or `[UNKNOWN]`. Never hallucinate missing project details.
+- Proactively offer to record newly finalized architectural choices as ADRs.
+
+## 2. Anti-Slop Quality Gate
+- **No Generic AI Aesthetics**: Avoid saturated purple-to-blue gradients, rounded card grids with identical drop-shadows, and generic floating icons unless explicitly designed in `DESIGN.md`.
+- **Human-First Copy**: Do not write marketing fluff ("Unlock the power of...", "In today's fast-paced digital world..."). Write direct, concise, concrete text.
+- **Code Comments**: Do not explain obvious language syntax (e.g. `// increment counter`). Only write comments explaining non-obvious *why*, edge cases, or security considerations.
+- Run the Delivery Gate checklist before finalizing frontend or copy tasks.

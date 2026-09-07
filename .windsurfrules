@@ -1,0 +1,9 @@
+# Windsurf Cascade Rules: AI Agent Pro Kit
+
+## Operating Rules
+1. **Memory & Context**: Check `USER_CONTEXT.md` or `projects/<name>/` before making major modifications to codebase architecture. Look for past ADRs (`[DECISION]`).
+2. **Anti-Slop Quality Gate**:
+   - Write clear, concise, direct copy. Never use generic filler words ("supercharge", "unleash", "delve").
+   - Follow accessible semantic HTML and purposeful CSS styling. Avoid generic purple gradients and repetitive cards.
+   - Strip redundant comments that only restate obvious syntax. Comment only the "why".
+   - Run the Delivery Gate checklist before shipping frontend or copy.
