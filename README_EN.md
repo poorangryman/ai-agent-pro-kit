@@ -55,7 +55,7 @@ ai-agent-pro-kit/
 
 ## Skills Catalog
 
-The repository includes 7 skills organized by purpose:
+The repository includes 11 skills organized by purpose:
 
 ### 1. Long-Term Memory (Agent Memory)
 | Skill | Responsibility | When Used |
@@ -73,6 +73,23 @@ The repository includes 7 skills organized by purpose:
 | **`antislop-human`** | Eliminates robotic cheerleading and hollow pleasantries; verifies contrast and accessibility (a11y) standards. | When crafting dialogue and interactive components. |
 
 ---
+
+
+### 3. Blind Execution Protection (No Dumb Mode)
+| Skill | Purpose | When to use |
+| :--- | :--- | :--- |
+| **`nodumb-suite`** | Architectural router. Prevents AI from guessing requirements, forces it to ask precise questions, hunt for edge cases, and plan UI states (loading/errors) before coding. | When starting any complex task, designing a new feature, or deep debugging. |
+
+### 4. Communication Style & Formatting
+| Skill | Purpose | When to use |
+| :--- | :--- | :--- |
+| **`i-have-adhd`** | Chat response formatting. Removes apologies, long preambles, and moralizing. Forces AI to number steps, hide internal thoughts, and deliver results in the first line. | Always active. |
+
+### 5. Design & Mobile (Product UI/UX)
+| Skill | Purpose | When to use |
+| :--- | :--- | :--- |
+| **`better-interface`** | Product UI/UX audit. Rules for building visual hierarchy, grids, typography, and spacing to create a premium interface. | When reviewing UI and writing frontend code. |
+| **`mobile-native`** | Native feel for the web. Fixes 100vh bugs, system input zoom, and adds proper touch-actions and states for mobile interfaces. | When building responsive or PWA applications. |
 
 ## Quick Start
 
@@ -111,6 +128,13 @@ Detailed instructions and workflows are available in [**GUIDE.md**](GUIDE.md).
 Practical workflows, prompts, architecture breakdowns, and agent skills in the Telegram channel [**@neuroslop_channel**](https://t.me/neuroslop_channel).
 
 ---
+
+
+## Credits & Authorship
+This repository brings together best practices from the AI developer community. Special thanks to the original authors of these instructions:
+* **Anti-Slop** concepts and quality rules — the developer community around Cursor and Claude.
+* **i-have-adhd** — a popular formatting prompt from the community.
+* **nodumb-suite**, **better-interface**, **mobile-native** — adapted from architectural protocols and design skills by independent engineers (including inspiration from Emil-design-eng and other open-source practices).
 
 ## License
 Released under the [MIT License](LICENSE).
